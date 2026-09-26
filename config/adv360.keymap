@@ -43,6 +43,16 @@
 &mo 2      &kp GRAVE  &kp LEFT_GUI  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END         &kp PG_DN         &kp BACKSPACE  &kp ENTER          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RIGHT_ALT
             >;
         };
+        
+        layer_win {
+            bindings = <
+&trans  &trans  &trans        &trans  &trans  &trans  &trans                                               &kp LC(Z)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &trans                                               &kp LC(C)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_GUI  &kp RCTRL  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans                  &trans      &trans                              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ALT  &trans  &trans          &trans  &trans  &trans      &trans        &trans     &trans             &trans  &trans  &trans  &trans  &trans
+            >;
+        };
 
         layer_keypad {
             bindings = <
@@ -74,34 +84,5 @@
             >;
         };
 
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_win {
-            bindings = <
-&trans  &trans  &trans        &trans  &trans  &trans  &trans                                               &kp LC(Z)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &trans                                               &kp LC(C)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_GUI  &kp RCTRL  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans                  &trans      &trans                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ALT  &trans  &trans          &trans  &trans  &trans      &trans        &trans     &trans             &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
