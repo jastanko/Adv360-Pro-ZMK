@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2        &kp N3    &kp N4     &kp N5  &mo 4                                                                      &kp LG(Z)  &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W         &kp E     &kp R      &kp T   &kp C_PP                                                                   &kp LG(C)  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S         &kp D     &kp F      &kp G   &kp C_MUTE  &kp LCTRL  &kp LS(LG(A))      &kp LC(LEFT_ALT)  &kp LEFT_GUI   &kp LG(V)  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X         &kp C     &kp V      &kp B                          &kp HOME           &kp PG_UP                                   &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 3      &kp GRAVE  &kp LEFT_GUI  &kp LEFT  &kp RIGHT          &kp SPACE   &kp DEL    &kp END            &kp PG_DN         &kp BACKSPACE  &kp ENTER          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RIGHT_ALT
+&kp EQUAL  &kp N1     &kp N2        &kp N3    &kp N4     &kp N5  &mo 4                                                                     &kp LG(Z)  &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W         &kp E     &kp R      &kp T   &kp C_MUTE                                                                &kp LG(C)  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S         &kp D     &kp F      &kp G   &kp LS(LG(A))  &kp LCTRL  &kp LC(LEFT_ALT)      &kp TAB    &kp LEFT_GUI   &kp LG(V)  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X         &kp C     &kp V      &kp B                             &kp HOME              &kp PG_UP                            &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 3      &kp GRAVE  &kp LEFT_GUI  &kp LEFT  &kp RIGHT          &kp SPACE      &kp DEL    &kp END               &kp PG_DN  &kp BACKSPACE  &kp ENTER          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &kp RIGHT_ALT
             >;
         };
 
@@ -48,9 +48,9 @@
             bindings = <
 &trans  &trans  &trans        &trans  &trans  &trans  &trans                                                  &kp LC(Z)  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &trans  &trans  &trans  &trans                                                  &kp LC(C)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &kp LA(A)      &kp LEFT_GUI  &kp RCTRL  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans                  &trans         &trans                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ALT  &trans  &trans          &trans  &trans  &trans         &trans        &trans     &trans             &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &kp LA(A)  &trans  &kp LEFT_GUI      &trans  &kp RCTRL  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans                     &trans            &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ALT  &trans  &trans          &trans     &trans  &trans            &trans  &trans     &trans             &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -66,11 +66,11 @@
 
         layer_fn {
             bindings = <
-&kp F12   &kp F1     &kp F2  &kp F3                &kp F4                 &kp F5  &none                                                      &none              &kp F6             &kp F7  &kp F8  &kp F9                &kp F10                &kp F11
-&trans    &kp LA(Q)  &trans  &kp LC(LG(SPACE))     &trans                 &trans  &none                                                      &none              &trans             &trans  &trans  &trans                &kp PRINTSCREEN        &kp F12
-&kp CAPS  &trans     &trans  &trans                &trans                 &trans  &none   &trans   &trans              &trans        &trans  &kp LG(LS(LA(V)))  &kp LA(LC(LG(H)))  &trans  &trans  &trans                &trans                 &trans
-&trans    &trans     &trans  &trans                &trans                 &trans                   &kp C_PREVIOUS      &kp C_VOL_UP                             &trans             &trans  &trans  &trans                &trans                 &trans
-&trans    &trans     &trans  &kp LA(LC(LG(LEFT)))  &kp LA(LC(LG(RIGHT)))          &trans  &kp INS  &kp C_NEXT          &kp C_VOL_DN  &trans  &trans                                &trans  &trans  &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &trans
+&kp F12   &kp F1  &kp F2  &kp F3                &kp F4                 &kp F5  &none                                                        &none              &kp F6             &kp F7  &kp F8  &kp F9                &kp F10                &kp F11
+&trans    &trans  &trans  &kp LC(LG(SPACE))     &trans                 &trans  &none                                                        &none              &trans             &trans  &trans  &trans                &kp PRINTSCREEN        &kp F12
+&kp CAPS  &trans  &trans  &trans                &trans                 &trans  &none     &trans   &trans              &trans        &trans  &kp LG(LS(LA(V)))  &kp LA(LC(LG(H)))  &trans  &trans  &trans                &trans                 &trans
+&trans    &trans  &trans  &trans                &trans                 &trans                     &kp C_PREVIOUS      &kp C_VOL_UP                             &trans             &trans  &trans  &trans                &trans                 &trans
+&trans    &trans  &trans  &kp LA(LC(LG(LEFT)))  &kp LA(LC(LG(RIGHT)))          &kp C_PP  &kp INS  &kp C_NEXT          &kp C_VOL_DN  &trans  &trans                                &trans  &trans  &kp LS(LC(LG(LEFT)))  &kp LS(LC(LG(RIGHT)))  &trans
             >;
         };
 
