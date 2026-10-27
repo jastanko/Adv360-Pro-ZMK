@@ -50,7 +50,7 @@
 &trans  &trans  &trans            &trans  &trans  &trans  &trans                                                             &kp LC(C)    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI      &mt LEFT_ALT TAB  &mt RCTRL TAB  &kp LC(V)    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &trans  &trans  &trans                  &kp LA(A)         &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mt LEFT_ALT END  &trans  &trans          &trans  &trans  &trans            &trans            &trans         &trans               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mt LEFT_ALT END  &trans  &trans          &trans  &trans  &trans            &trans            &trans         &trans               &trans  &trans  &trans  &trans  &mt LEFT_ALT LS(LG(S))
             >;
         };
 
